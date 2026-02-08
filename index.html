@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chicken Republic</title>
+</head>
+<body>
+   <section>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-5">
+        <div class="container">
+            <a href="#" class="navbar-brand">Chicken Republic</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav">
+                <li class="nav-items">
+                    <a href="#" class="nav-link"><i class="bi bi-facebook mx-1">Facebook</i></a>
+                </li>
+                 <li class="nav-items">
+                    <a href="#" class="nav-link"><i class="bi bi-whatsapp">Whatsapp</i></a>
+                </li>
+                 <li class="nav-items">
+                    <a href="#" class="nav-link"><i class="bi bi-twitter">Twitter</i></a>
+                </li>
+                 <li class="nav-items">
+                    <a href="#" class="nav-link"><i class="bi bi-linkedin">Linkedin</i></a>
+                </li>
+                 <li class="nav-items">
+                    <a href="#" class="nav-link"><i class="bi bi-instagram">Instagram</i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <p class="fw-bold text-center">This page is only for those above 18</p>
+            <br>
+            <br>
+            <p id="greeting" class="fw-bold">Good morning!</p>
+            <button onclick="askname()" class="fw-bold">Click to Enter Your Name</button>
+        </div>
+        <br>
+        <div class="container">
+            <label for="birthdate" class="fw-bold">Enter your birthdate:</label>
+    <input type="date" id="birthdate" class="fw-bold">
+    <button onclick="checkAge()" class="fw-bold">Verify Age</button>
+    <p id="message"></p>
+        </div>
+        <!-- This div will display the output of the loop -->
+    <div id="output" class="fw-bold text-center"></div>
+    <div>
+         <button id="greetbtn" class="fw-bold text-center">Greet me</button>
+         <p id="message" class="fw-bold"></p>
+    </div>
+        
+    
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
